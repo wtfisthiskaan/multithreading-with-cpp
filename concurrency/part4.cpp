@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 	thr.join();
 
 	std::cout<<(str.empty() ? "No": "Yes");
-	std::cout<<str;
+	std::cout<<str; 
 
 
 

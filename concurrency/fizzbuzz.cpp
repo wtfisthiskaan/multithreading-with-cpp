@@ -33,7 +33,4 @@ int main(int argc, char const *argv[])
 	std::thread thr(fizzbuzz);
 
 	thr.join();
-
-
-
 }
